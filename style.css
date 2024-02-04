@@ -1,0 +1,39 @@
+body {
+
+    background-color: black;
+}
+
+.heading h1 {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: black;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-container button {
+    width: 200px;
+    padding: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+#resultDisplay {
+    color: whitesmoke;
+}
+
+.result-display {
+    margin-top: 20px;
+    /* Add margin to separate results from buttons */
+    text-decoration-color: whitesmoke;
+}
